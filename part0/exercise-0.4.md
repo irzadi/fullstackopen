@@ -10,6 +10,6 @@ sequenceDiagram
     server->>browser: send the CSS file
     browser->>server: GET js
     server->>browser: send the JS file
-    browser->>server: runs the JS file which contains instruction to GET "exampleapp/data.json"
+    browser->>server: runs the JS file containing instruction to GET "exampleapp/data.json"
     server->>browser: send data.json
 ```
